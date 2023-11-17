@@ -1,0 +1,93 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* How we help section  */
+
+.h_wehelp{
+    background-color: #2c531d;
+    padding: 20px;
+
+  }
+
+  .h_wehelp h1{
+    color: #fff;
+    font-family: times new roman;
+
+  }
+
+  .h_wehelp h1 span{
+    color: rgb(8, 204, 83);
+    font-family: times new roman;
+  }
+
+  .h_wehelp p{
+   font-size: 23px;
+  }
+
+  .h_wehelp h1{
+    font-size: 50px;
+  }
+
+  .h_wehelp .btn{
+
+    height: 50px;
+    width: 200px;
+
+  }
+
+  .h_wehelp .btn:hover{
+    color: #fff;
+    background-color: #000;
+
+  }
+  #service-btn:hover{
+    background-color: rgb(8, 204, 83);
+    color: white;
+    border-radius: 25px;
+
+  }
+
+
+  #carousel {
+    /* Reduce the height here by changing the max-height value. */
+    max-height: 500px; /* You can adjust the height to your preference. */
+}
+
+#cimg {
+    /* Modify the image height here. */
+    max-height: 500px; /* You can adjust the height to your preference. */
+}
+
+#caro-text {
+    /* You can also adjust the padding to fit your content. */
+    padding: 2rem;
+}
+
+#caro-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    text-white: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile_h{
+  font-weight: bold;
+  font-family: tahoma;
+}
+
+
+
+
